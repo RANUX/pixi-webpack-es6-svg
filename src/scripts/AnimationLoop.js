@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-
+// TODO: extract to package
 export default class AnimationLoop extends PIXI.utils.EventEmitter {
   constructor(renderer, stage = new PIXI.Container()){
     super();
